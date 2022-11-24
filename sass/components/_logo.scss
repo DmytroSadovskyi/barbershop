@@ -1,0 +1,22 @@
+.logo{
+    display:inline-block;
+    text-decoration: none;
+}
+
+.page-header__logo{
+    @media screen and (min-width:768px){
+        margin-right: 49px;
+    }
+
+         @media screen and (min-width:1200px) {
+             margin-right: 131px;
+         }
+}
+ .logo__icon{
+    fill: var(--main-link-color);
+
+    @media screen and (min-width:768px){
+        fill: #303030;
+    }
+
+ }
