@@ -398,6 +398,17 @@ body {
   background-color: #303030;
 }
 
+.soc__link {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  letter-spacing: 0.2em;
+  color: var(--second-title-color);
+}
+.soc__link:hover, .soc__link:focus {
+  color: var(--accent-color);
+}
+
 .hero-wrapper {
   padding: 208px 31px;
   background-color: #3d3e45;
