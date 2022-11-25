@@ -1,5 +1,35 @@
+.about__container{
+    @media screen and (min-width:768px){
+        display: flex;
+        gap: 30px;
+    }
+}
+
+
 .image-list{
     display:none;
+@media screen and (min-width: 768px) {
+        display: flex;
+        flex-direction: column;
+       gap: 30px;
+      flex-shrink: 0;
+        
+    }
+
+    @media screen and (min-width: 1200px) {
+       
+        flex-direction: row;
+       
+    }
+    
+
+       
+}
+
+
+
+.about__wrap {
+    max-width: 470px;
 }
 
 .about__pre-title{
@@ -53,4 +83,17 @@
                  @media screen and (min-width:768px) {
                      margin-bottom: 42px;
                  }
+}
+
+.about__link{
+    font-weight: 600;
+        font-size: 12px;
+        line-height: 1.33;
+        letter-spacing: 0.09em;
+        color: var(--second-title-color);
+        
+        &:hover,
+        &:focus{
+            color: var(--main-link-color);
+        }
 }
