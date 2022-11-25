@@ -898,20 +898,6 @@ body {
 .benefits-item:nth-child(odd) {
   margin-right: 30px;
 }
-@media screen and (max-width: 379px) {
-  .benefits-item {
-    margin: 0;
-  }
-  .benefits-item:nth-child(even) {
-    margin-top: 0;
-  }
-  .benefits-item:nth-child(odd) {
-    margin-right: 0;
-  }
-  .benefits-item:not(:last-child) {
-    margin-bottom: 30px;
-  }
-}
 @media screen and (max-width: 445px) {
   .benefits-item {
     width: 160px;
