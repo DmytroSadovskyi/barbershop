@@ -1,0 +1,29 @@
+.gallery__pre-title{
+    margin-bottom: 71px;
+
+    @media screen and (min-width:768px){
+        margin-bottom: 44px;
+    }
+}
+
+.gallery-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+
+    @media screen and (min-width:1200px){
+        flex-wrap: nowrap;
+    }
+}
+
+.gallery-list__item{
+    @media screen and (min-width:768px){
+       flex-basis: calc((100% - 30px) / 2); 
+    }
+         
+    @media screen and (min-width:1200px) {
+        flex-basis: calc((100% - 90px) / 4);
+         }
+
+
+}
