@@ -116,6 +116,10 @@ span{
     }    
 }
 
+.benefits__pre-title{
+    margin-bottom: 20px;
+}
+
 .benefits__title{
    margin-bottom: 20px;
     font-size: 42px;
@@ -124,6 +128,10 @@ span{
         @media screen and (min-width: 1200px) {
             max-width: 430px;
         }
+
+                @media screen and (min-width: 768px) {
+                    max-width: 449px;
+                }
         
 }
 

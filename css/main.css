@@ -937,6 +937,10 @@ span::after {
   vertical-align: top;
 }
 
+.benefits__pre-title {
+  margin-bottom: 20px;
+}
+
 .benefits__title {
   margin-bottom: 20px;
   font-size: 42px;
@@ -945,6 +949,11 @@ span::after {
 @media screen and (min-width: 1200px) {
   .benefits__title {
     max-width: 430px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .benefits__title {
+    max-width: 449px;
   }
 }
 
