@@ -1,15 +1,6 @@
 .page-header{
     width: 100%;
-    position: absolute;
-
-    padding-top: 22px;
-    padding-bottom: 22px;
-
-    @media screen and (min-width:1200px) {
-        padding-top: 32px;
-    padding-bottom: 32px;
-    }
-    
+    position: absolute; 
 }
 
 .page-header__container{

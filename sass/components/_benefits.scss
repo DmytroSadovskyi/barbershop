@@ -58,23 +58,6 @@
                 &:nth-child(odd) {
                     margin-right: 30px;
                 }
- 
-    //  @media screen and(max-width:379px) {
-     
-    //    margin: 0;
-
-    //     &:nth-child(even) {
-    //             margin-top: 0;
-    //         }
-        
-    //         &:nth-child(odd) {
-    //             margin-right: 0;
-    //         }
-
-    //    &:not(:last-child){
-    //      margin-bottom: 30px;
-    //    }
-      
 
  
                 @media screen and(max-width:445px) {
@@ -99,7 +82,7 @@
         color: var(--second-title-color);
 }                
 
-span{
+span {
     font-weight: 700;
         font-size: 42px;
         line-height: 1.36;
