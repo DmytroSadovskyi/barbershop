@@ -1106,6 +1106,11 @@ body {
 .online {
   background-color: #191C26;
 }
+@media screen and (min-width: 1200px) {
+  .online {
+    width: calc(50% - 15px);
+  }
+}
 
 .online__title {
   margin-bottom: 44px;
@@ -1345,6 +1350,12 @@ body {
     background-image: url(../images/contacts-image-tab@3x-min.png);
   }
 }
+@media screen and (min-width: 1200px) {
+  .contacts {
+    width: calc(50% - 15px);
+    padding-left: 100px;
+  }
+}
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .contacts-wrapper {
     display: -webkit-box;
@@ -1447,4 +1458,91 @@ body {
   line-height: 1.67;
   letter-spacing: 0.02em;
   color: #9DA4BD;
+}
+
+.page-footer {
+  padding-top: 51px;
+  padding-bottom: 44px;
+}
+@media screen and (min-width: 768px) {
+  .page-footer {
+    padding-top: 56px;
+    padding-bottom: 56px;
+  }
+}
+.page-footer > .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+@media screen and (min-width: 768px) {
+  .page-footer > .container {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+.footer-copy {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  letter-spacing: 0.2em;
+  color: #9DA4BD;
+  -webkit-box-ordinal-group: 3;
+      -ms-flex-order: 2;
+          order: 2;
+}
+@media screen and (min-width: 768px) {
+  .footer-copy {
+    -webkit-box-ordinal-group: 1;
+        -ms-flex-order: 0;
+            order: 0;
+  }
+}
+
+.footer-socials {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 40px;
+  margin-bottom: 21px;
+  margin-left: auto;
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+}
+@media screen and (min-width: 768px) {
+  .footer-socials {
+    margin-bottom: 0;
+    -webkit-box-ordinal-group: 1;
+        -ms-flex-order: 0;
+            order: 0;
+  }
+}
+.footer-socials::before {
+  content: "";
+  width: 60px;
+  height: 1px;
+  background-color: var(--second-title-color);
+}
+
+.footer-socials__link {
+  font-family: var(--main-font);
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  letter-spacing: 0.2em;
+  color: var(--second-title-color);
 }/*# sourceMappingURL=main.css.map */
