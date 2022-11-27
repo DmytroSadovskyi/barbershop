@@ -1385,9 +1385,9 @@ body {
   .contacts__map-link {
     max-width: 230px;
   }
-}
-.contacts__map-link .index {
-  margin-left: 42px;
+  .contacts__map-link .index {
+    margin-left: 42px;
+  }
 }
 
 .contacts-list__item {

@@ -90,13 +90,14 @@ screen and (min-resolution: 3dppx) {
         color: #9DA4BD;
 
     @media screen and (min-width:768px) and (max-width:1199px) {
-        max-width: 230px;
-        }
-
+        max-width: 230px; 
         & .index{
             margin-left: 42px;
         }
 }
+        }
+
+       
 
 .contacts-list__item{
     margin-bottom: 20px;
