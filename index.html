@@ -47,11 +47,52 @@
         <button class="connect__btn btn" type="button"><a class="connect__link link"
             href="#online-booking">Online-booking</a></button>
       </div>
-      <button class="open-btn" type="button">
+      <button class="menu-toggle js-open-menu" type="button" aria-expanded="false" aria-controls="mobile-menu"
+        data-menu-open>
         <svg width="40" height="40">
           <use href="./images/icons.svg#icon-menu"></use>
         </svg>
       </button>
+    </div>
+    <div class="menu-wrap js-menu-container">
+
+      <button class="menu-toggle js-close-menu">
+        <svg width="40" height="40">
+          <use href="./images/icons.svg#icon-close"></use>
+        </svg>
+      </button>
+
+      <ul class="mob-menu list">
+        <li class="mob-menu__item">
+          <a class="mob-menu__link link" href="#about">About</a>
+        </li>
+        <li class="mob-menu__item">
+          <a class="mob-menu__link link" href="#services">Services and prices</a>
+        </li>
+        <li class="mob-menu__item">
+          <a class="mob-menu__link link" href="#barbers">Barbers</a>
+        </li>
+        <li class="mob-menu__item">
+          <a class="mob-menu__link link" href="#contacts">Contacts</a>
+        </li>
+      </ul>
+
+      <div class="mob-connect">
+        <a class="mob-connect__tel link" href="tel:+380441111111">+38 044 111 11 11</a>
+        <button class="mob-connect__btn btn" type="button"><a class="mob-connect__link link"
+            href="#online-booking">Online-booking</a></button>
+      </div>
+
+      <ul class="mob-socials list">
+        <li class="mob-socials__item">
+          <a class="mob-socials__link link" href="" target="_blank" rel="noopener noreferrer nofollow">Instagram</a>
+        </li>
+        <li class="mob-socials__item">
+          <a class="mob-socials__link link" href="" target="_blank" rel="noopener noreferrer nofollow">Youtube</a>
+        </li>
+      </ul>
+
+
     </div>
   </header>
 
@@ -397,7 +438,6 @@
     <div class="contacts-wrap">
       <div class="container">
         <section class="section online">
-
           <h2 class="title online__title">Online-booking</h2>
           <form class="online__form" action="#" id="online-booking">
             <input class="online__input" type="text" placeholder="Name*" name="online-name" />
@@ -408,7 +448,6 @@
         </section>
 
         <section class="section contacts" id="contacts">
-
           <h2 class="title contacts__title">Contacts</h2>
           <div class="contacts-wrapper">
             <address>
@@ -416,7 +455,8 @@
                 rel="noopener noreferrer nofollow"><svg class="contacts__icon" width="24" height="24">
                   <use href="./images/icons.svg#icon-map-pin"></use>
                 </svg>
-                st. Vasilkivska, 7A <span class="index">Kyiv, 08132</span> </a>
+                st. Vasilkivska, 7A <span class="index">Kyiv, 08132</span>
+              </a>
               <ul class="contacts-list list">
                 <li class="contacts-list__item">
                   <a class="contacts-list__link link" href="tel:+380441111111"><svg class="contacts__icon" width="24"
@@ -437,8 +477,6 @@
               <p class="contacts__schedule">Every day from 9:00 to 22:00</p>
             </div>
           </div>
-
-
         </section>
       </div>
     </div>
@@ -457,6 +495,14 @@
       </ul>
     </div>
   </footer>
+
+
+
+  <script src="./js/modal.js"></script>
+  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+    integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+    crossorigin="anonymous"></script>
+  <script src="./js/menu.js"></script>
 </body>
 
 </html>

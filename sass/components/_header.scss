@@ -1,6 +1,10 @@
 .page-header{
     width: 100%;
     position: absolute; 
+
+    @media screen and (max-width:767px) {
+        padding-top: 40px;
+    }
 }
 
 .page-header__container{
@@ -11,7 +15,7 @@
                  
 }
 
-.open-btn{
+.menu-toggle{
     margin-left: auto;
     display: flex;
     align-items: center;
