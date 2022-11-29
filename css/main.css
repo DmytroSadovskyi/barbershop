@@ -1665,10 +1665,10 @@ body {
 
 .scroll-btn {
   position: fixed;
-  right: 10px;
-  bottom: 10px;
-  width: 20px;
-  height: 20px;
+  right: 30px;
+  bottom: 30px;
+  width: 30px;
+  height: 30px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1691,18 +1691,8 @@ body {
 }
 @media screen and (min-width: 768px) {
   .scroll-btn {
-    width: 30px;
-    height: 30px;
-    right: 15px;
-    bottom: 15px;
-  }
-}
-@media screen and (min-width: 1200px) {
-  .scroll-btn {
     width: 40px;
     height: 40px;
-    right: 30px;
-    bottom: 30px;
   }
 }
 
@@ -1716,12 +1706,6 @@ body {
   fill: #ffffff;
 }
 @media screen and (min-width: 768px) {
-  .scroll-icon {
-    width: 15px;
-    height: 15px;
-  }
-}
-@media screen and (min-width: 1200px) {
   .scroll-icon {
     width: 20px;
     height: 20px;
