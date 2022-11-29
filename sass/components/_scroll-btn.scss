@@ -1,7 +1,7 @@
 .scroll-btn{
     position: fixed;
-    right: 30px;
-    bottom: 30px;
+    right: 10px;
+    bottom: 10px;
     width: 20px;
     height: 20px;
     display: flex;
@@ -19,11 +19,15 @@
     @media screen and (min-width:768px){
         width: 30px;
         height: 30px;
+        right: 15px;
+            bottom: 15px;
     }
 
         @media screen and (min-width:1200px) {
             width: 40px;
             height: 40px;
+            right: 30px;
+            bottom: 30px;
         }
 }
 
