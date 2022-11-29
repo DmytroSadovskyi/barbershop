@@ -2,8 +2,8 @@
     position: fixed;
     right: 30px;
     bottom: 30px;
-    width: 40px;
-    height: 40px;
+    width: 20px;
+    height: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -15,6 +15,16 @@
     opacity: 0;
     transform: translateY(100px);
     transition: all 0.5s ease;
+
+    @media screen and (min-width:768px){
+        width: 30px;
+        height: 30px;
+    }
+
+        @media screen and (min-width:1200px) {
+            width: 40px;
+            height: 40px;
+        }
 }
 
 .show{
@@ -24,4 +34,14 @@
 
 .scroll-icon{
     fill: #ffffff;
+
+    @media screen and (min-width:768px){
+        width: 15px;
+        height: 15px;
+    }
+
+        @media screen and (min-width:1200px) {
+            width: 20px;
+            height: 20px;
+        }
 }
