@@ -1,5 +1,12 @@
 .contacts-wrap{
     @media screen and (min-width:1200px){
+        background-color: #191c26;
+            background-image: url(../images/contacts-image-desk-min.png);
+            background-repeat: no-repeat;
+            background-position: right;
+            background-size: calc(50% - 15px) 100%;
+            max-width: 1600px;
+            margin: 0 auto;
        & > .container{ 
         display: flex;
         justify-content: space-between;

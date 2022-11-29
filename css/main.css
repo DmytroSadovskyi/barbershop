@@ -1107,8 +1107,29 @@ body {
   }
 }
 
+@media screen and (min-width: 1200px) {
+  .contacts-wrap {
+    background-color: #191c26;
+    background-image: url(../images/contacts-image-desk-min.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: calc(50% - 15px) 100%;
+    max-width: 1600px;
+    margin: 0 auto;
+  }
+  .contacts-wrap > .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+}
+
 .online {
   background-color: #191C26;
+  background-size: 100%;
 }
 @media screen and (min-width: 1200px) {
   .online {
@@ -1157,6 +1178,11 @@ body {
 @media screen and (min-width: 768px) {
   .online__input {
     width: 330px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .online__input {
+    width: 270px;
   }
 }
 .online__input::-webkit-input-placeholder {
