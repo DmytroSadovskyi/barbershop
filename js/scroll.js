@@ -1,15 +1,15 @@
-var scrollBtn = document.querySelector(".scroll-btn");
+var scrollToTopBtn = document.querySelector(".scrollToTopBtn");
 var rootElement = document.documentElement;
 
 function handleScroll() {
   // Do something on scroll
   var scrollTotal = rootElement.scrollHeight - rootElement.clientHeight;
-  if (rootElement.scrollTop / scrollTotal > 0.8) {
+  if (rootElement.scrollTop / scrollTotal > 0.01) {
     // Show button
-    scrollBtn.classList.add("show");
+    scrollToTopBtn.classList.add("show");
   } else {
     // Hide button
-    scrollBtn.classList.remove("show");
+    scrollToTopBtn.classList.remove("show");
   }
 }
 
@@ -20,5 +20,5 @@ function scrollToTop() {
     behavior: "smooth"
   });
 }
-scrollBtn.addEventListener("click", scrollToTop);
+scrollToTopBtn.addEventListener("click", scrollToTop);
 document.addEventListener("scroll", handleScroll);
