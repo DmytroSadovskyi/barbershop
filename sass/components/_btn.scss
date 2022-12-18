@@ -10,6 +10,7 @@ min-width: 160px;
     border: 1px solid #ff6c00;
     border-radius: 25px;
     background-color: transparent;
+    cursor: pointer;
     transition: background-color 200ms linear, color 200ms linear;
 
     
@@ -17,6 +18,7 @@ min-width: 160px;
  &:hover,
  &:focus {
      background-color: var(--accent-color);
+    color: var(--main-btn-color);
  }
 
 
@@ -30,3 +32,4 @@ min-width: 160px;
  .btn--color-dark {
      color: var(--second-btn-color);
  }
+

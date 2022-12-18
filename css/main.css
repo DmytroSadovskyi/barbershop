@@ -272,11 +272,13 @@ body {
   border: 1px solid #ff6c00;
   border-radius: 25px;
   background-color: transparent;
+  cursor: pointer;
   -webkit-transition: background-color 200ms linear, color 200ms linear;
   transition: background-color 200ms linear, color 200ms linear;
 }
 .btn:hover, .btn:focus {
   background-color: var(--accent-color);
+  color: var(--main-btn-color);
 }
 
 .btn--color-light {
@@ -621,6 +623,10 @@ body {
 }
 .about__link:hover, .about__link:focus {
   color: var(--main-link-color);
+}
+
+.about__btn {
+  color: var(--second-btn-color);
 }
 
 .prices {
@@ -1121,7 +1127,7 @@ body {
 @media screen and (min-width: 1200px) {
   .online {
     width: calc(50% - 15px);
-    padding-left: 200px;
+    padding-left: 100px;
     padding-right: 15px;
   }
 }
@@ -1366,8 +1372,22 @@ body {
 }
 @media screen and (min-width: 1200px) {
   .contacts {
-    width: calc(50% - 15px);
+    width: 50%;
     padding-left: 100px;
+    background-color: #191C26;
+    background-image: url(../images/contacts-image-desk-min.png);
+  }
+}
+@media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (min-resolution: 192dpi), screen and (min-width: 1200px) and (min-resolution: 2dppx) {
+  .contacts {
+    background-color: #191C26;
+    background-image: url(../images/contacts-image-desk@2x-min.png);
+  }
+}
+@media screen and (min-width: 1200px) and (min-device-pixel-ratio: 3), screen and (min-width: 1200px) and (-webkit-min-device-pixel-ratio: 3), screen and (min-width: 1200px) and (min-resolution: 288dpi), screen and (min-width: 1200px) and (min-resolution: 3dppx) {
+  .contacts {
+    background-color: #191C26;
+    background-image: url(../images/contacts-image-desk@3x-min.png);
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1199px) {
