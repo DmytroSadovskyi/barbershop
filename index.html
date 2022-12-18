@@ -440,8 +440,10 @@
         <div class="container">
           <h2 class="title online__title">Online-booking</h2>
           <form class="online__form" action="#" id="online-booking">
-            <input class="online__input" type="text" placeholder="Name*" name="online-name" />
-            <input class="online__input" type="tel" placeholder="Phone*" name="online-phone" />
+            <input class="online__input" type="text" placeholder="Name*" name="online-name" required
+              title="please, write your name" pattern="([a-zA-Zа-яА-Я]+)" autocomplete="off" />
+            <input class="online__input" type="tel" placeholder="Phone*" name="online-phone" required
+              title="write your number here" pattern="([+][0-9\+]{12})" autocomplete="off" />
             <textarea class="online__text" name="online-text" placeholder="Message"></textarea>
             <button class="btn online__btn" type="submit">Send</button>
           </form>
