@@ -261,8 +261,9 @@ body {
 }
 
 .btn {
-  min-width: 160px;
-  height: 40px;
+  text-decoration: none;
+  display: inline-block;
+  padding: 12px 20px;
   font-family: inherit;
   font-weight: 600;
   font-size: 12px;
@@ -691,8 +692,8 @@ body {
 }
 .prices__descr {
   padding: 30px 20px 30px 40px;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#171A24), to(rgba(23, 26, 36, 0.2)));
-  background-image: linear-gradient(180deg, #171A24 0%, rgba(23, 26, 36, 0.2) 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#171a24), to(rgba(23, 26, 36, 0.2)));
+  background-image: linear-gradient(180deg, #171a24 0%, rgba(23, 26, 36, 0.2) 100%);
 }
 @media screen and (min-width: 768px) {
   .prices__descr {
@@ -752,12 +753,12 @@ body {
   }
   .prices-list:first-child {
     margin-bottom: 0;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#171A24), to(rgba(23, 26, 36, 0.2)));
-    background-image: linear-gradient(180deg, #171A24 0%, rgba(23, 26, 36, 0.2) 100%);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#171a24), to(rgba(23, 26, 36, 0.2)));
+    background-image: linear-gradient(180deg, #171a24 0%, rgba(23, 26, 36, 0.2) 100%);
   }
   .prices-list:last-child {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#090B13), to(rgba(9, 11, 19, 0.2)));
-    background-image: linear-gradient(180deg, #090B13 0%, rgba(9, 11, 19, 0.2) 100%);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#090b13), to(rgba(9, 11, 19, 0.2)));
+    background-image: linear-gradient(180deg, #090b13 0%, rgba(9, 11, 19, 0.2) 100%);
   }
 }
 
@@ -795,7 +796,7 @@ body {
   font-size: 14px;
   line-height: 1.43;
   letter-spacing: 0.02em;
-  color: #9DA4BD;
+  color: #9da4bd;
 }
 @media screen and (min-width: 768px) {
   .prices-list__text {
@@ -899,7 +900,7 @@ body {
   height: 133px;
   padding: 20px 35px;
   text-align: center;
-  background-color: #F7F7F7;
+  background-color: #f7f7f7;
 }
 .benefits-item:nth-child(even) {
   margin-top: 30px;
@@ -1333,7 +1334,7 @@ body {
 }
 
 .contacts {
-  background-color: #191C26;
+  background-color: #191c26;
   background-image: url(../images/contacts-image-mobile-min.png);
   background-repeat: no-repeat;
   background-position: center;
@@ -1342,31 +1343,31 @@ body {
 
 @media screen and (min-device-pixel-ratio: 2), screen and (-webkit-min-device-pixel-ratio: 2), screen and (min-resolution: 192dpi), screen and (min-resolution: 2dppx) {
   .contacts {
-    background-color: #191C26;
+    background-color: #191c26;
     background-image: url(../images/contacts-image-mobile@2x-min.png);
   }
 }
 @media screen and (min-device-pixel-ratio: 3), screen and (-webkit-min-device-pixel-ratio: 3), screen and (min-resolution: 288dpi), screen and (min-resolution: 3dppx) {
   .contacts {
-    background-color: #191C26;
+    background-color: #191c26;
     background-image: url(../images/contacts-image-mobile@3x-min.png);
   }
 }
 @media screen and (min-width: 768px) {
   .contacts {
-    background-color: #191C26;
+    background-color: #191c26;
     background-image: url(../images/contacts-image-tab-min.png);
   }
 }
 @media screen and (min-width: 768px) and (min-device-pixel-ratio: 2), screen and (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 768px) and (min-resolution: 192dpi), screen and (min-width: 768px) and (min-resolution: 2dppx) {
   .contacts {
-    background-color: #191C26;
+    background-color: #191c26;
     background-image: url(../images/contacts-image-tab@2x-min.png);
   }
 }
 @media screen and (min-width: 768px) and (min-device-pixel-ratio: 3), screen and (min-width: 768px) and (-webkit-min-device-pixel-ratio: 3), screen and (min-width: 768px) and (min-resolution: 288dpi), screen and (min-width: 768px) and (min-resolution: 3dppx) {
   .contacts {
-    background-color: #191C26;
+    background-color: #191c26;
     background-image: url(../images/contacts-image-tab@3x-min.png);
   }
 }
@@ -1374,19 +1375,19 @@ body {
   .contacts {
     width: 50%;
     padding-left: 100px;
-    background-color: #191C26;
+    background-color: #191c26;
     background-image: url(../images/contacts-image-desk-min.png);
   }
 }
 @media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (min-resolution: 192dpi), screen and (min-width: 1200px) and (min-resolution: 2dppx) {
   .contacts {
-    background-color: #191C26;
+    background-color: #191c26;
     background-image: url(../images/contacts-image-desk@2x-min.png);
   }
 }
 @media screen and (min-width: 1200px) and (min-device-pixel-ratio: 3), screen and (min-width: 1200px) and (-webkit-min-device-pixel-ratio: 3), screen and (min-width: 1200px) and (min-resolution: 288dpi), screen and (min-width: 1200px) and (min-resolution: 3dppx) {
   .contacts {
-    background-color: #191C26;
+    background-color: #191c26;
     background-image: url(../images/contacts-image-desk@3x-min.png);
   }
 }
@@ -1424,7 +1425,7 @@ body {
   font-size: 18px;
   line-height: 1.67;
   letter-spacing: 0.02em;
-  color: #9DA4BD;
+  color: #9da4bd;
 }
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .contacts__map-link {
@@ -1448,7 +1449,7 @@ body {
   font-size: 18px;
   line-height: 1.67;
   letter-spacing: 0.02em;
-  color: #9DA4BD;
+  color: #9da4bd;
 }
 .contacts-list__link--underline {
   text-decoration: underline;
@@ -1491,7 +1492,7 @@ body {
   font-size: 18px;
   line-height: 1.67;
   letter-spacing: 0.02em;
-  color: #9DA4BD;
+  color: #9da4bd;
 }
 
 .page-footer {
