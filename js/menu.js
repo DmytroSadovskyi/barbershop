@@ -3,6 +3,8 @@
   const openMenuBtn = document.querySelector('.js-open-menu');
   const closeMenuBtn = document.querySelector('.js-close-menu');
 
+  const menuLinks = document.querySelectorAll('.mob-menu__link');
+
   const toggleMenu = () => {
     const isMenuOpen = openMenuBtn.getAttribute('aria-expanded') === 'true' || false;
     openMenuBtn.setAttribute('aria-expanded', !isMenuOpen);
@@ -11,6 +13,10 @@
     const scrollLockMethod = !isMenuOpen ? 'disableBodyScroll' : 'enableBodyScroll';
     bodyScrollLock[scrollLockMethod](document.body);
   };
+
+   menuLinks.forEach(link => {
+    link.addEventListener('click', toggleMenu);
+  });
 
   openMenuBtn.addEventListener('click', toggleMenu);
   closeMenuBtn.addEventListener('click', toggleMenu);
